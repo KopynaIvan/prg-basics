@@ -1,0 +1,6 @@
+age = int(22)
+no_tax = age < int(18)
+print(f'Exemption from paying taxes: {no_tax}')
+age = int(26)
+no_tax = age < int(18)
+print(f'Exemption from paying taxes: {no_tax}')
